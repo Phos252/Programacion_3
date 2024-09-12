@@ -57,7 +57,7 @@ void fun_1(PackageTypes ...PackageParams){ //Params
 //Acceder a los valores usando Folding expression
 template <typename ...PackageTypes>
 void show(PackageTypes ...params){
-
+    ((std::cout << params), ...);
 }
 
 bool es_par(int x){
