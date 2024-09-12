@@ -2,6 +2,8 @@
 
 using namespace std;
 
+//Templates solo deben ser declarados en headers, no en cpp //Este es solo un ejemplo
+
 template <class T>
 struct Point {
     T x;
