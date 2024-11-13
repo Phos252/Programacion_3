@@ -20,6 +20,11 @@ T fun_1(){
     return 10 + 20;
 }
 
+//especialización total
+//condicional
+//type traits
+
+
 int main(){
     int a = 5;
 
